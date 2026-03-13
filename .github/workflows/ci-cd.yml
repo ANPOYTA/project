@@ -25,6 +25,9 @@ jobs:
             - name: Run ESLint
               run: npm run lint
 
+            - name: Check Secret
+              run: echo "Мій пароль -> ${{ secrets.MY_SUPER_SECRET }}"
+
             - name: Run Unit Tests
               run: npm run test:unit
 
