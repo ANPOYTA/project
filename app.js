@@ -1,7 +1,5 @@
 import { calculateBeds, isValidName } from './logic.js';
 
-const breakPipeline = "Я ламаю лінтер";
-
 document.addEventListener('DOMContentLoaded', () => {
     const statusElement = document.getElementById('env-status');
     if (statusElement) {
