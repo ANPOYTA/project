@@ -1,32 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DormManager - Admin Panel</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1 class="main-title">🏢 DormManager</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">Students</a></li>
-                <li><a href="#">Applications</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <title>DormManager - Admin Panel</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
 
-    <main>
-        <section class="dashboard">
-            <h2>Residence Statistics</h2>
-            <p>Available spaces: <strong>42</strong></p>
-            <p>Active applications: <strong>5</strong></p>
-            <button id="addStudentBtn">Reside Student</button>
-        </section>
-    </main>
+    <body>
+        <header>
+            <h1 class="main-title">🏢 DormManager</h1>
+            <p
+                id="env-status"
+                style="
+                    display: inline-block;
+                    background-color: #f3f4f6;
+                    color: #374151;
+                    padding: 4px 12px;
+                    border-radius: 16px;
+                    font-size: 12px;
+                    font-weight: 600;
+                "
+            ></p>
+        </header>
 
-    <script src="app.js"></script>
-</body>
+        <main>
+            <section class="dashboard">
+                <h2>Residence Statistics</h2>
+                <p>Available spaces: <strong id="available-beds">42</strong></p>
+                <div
+                    id="message-area"
+                    style="margin: 10px 0; font-weight: bold"
+                ></div>
+                <button id="addStudentBtn">Reside Student</button>
+            </section>
+        </main>
+
+        <script type="module" src="./app.js"></script>
+    </body>
 </html>
