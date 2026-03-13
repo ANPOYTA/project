@@ -2,7 +2,7 @@
 
 [![CI/CD Pipeline](https://github.com/ANPOYTA/project/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ANPOYTA/project/actions/workflows/ci-cd.yml)
 
-🚀 **Live Demo:** [Подивитися сайт можна тут](https://vercel.com/anpoytas-projects/project)
+🚀 **Live Demo:** [Подивитися сайт можна тут](https://project-theta-lyart-68.vercel.app)
 
 ## Опис проєкту
 
