@@ -1,5 +1,9 @@
 # 🏢 Система Управління Гуртожитком (DormManager MVP)
 
+[![CI/CD Pipeline](https://github.com/ANPOYTA/project/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/ANPOYTA/project/actions/workflows/ci-cd.yml)
+
+🚀 **Live Demo:** [Подивитися сайт можна тут](https://vercel.com/anpoytas-projects/project)
+
 ## Опис проєкту
 
 DormManager — це веб-застосунок (MVP) для автоматизації роботи студентського гуртожитку. Система дозволяє коменданту та адміністрації зручно керувати житловим фондом, а студентам — швидко вирішувати побутові питання.
